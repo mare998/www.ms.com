@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marko Stanojevic">
+<meta name="keywords" content="Web Developer, Marko, Marko Stanojevic, frontend, frontend web developer, MS, website designer">
+<meta name="description" content="Information about Marko Stanojevic a self thought frontend web developer/professional QA Tester from Serbia.">
+<meta property="og:title" content="Marko Stanojevic">
+<meta property="og:description" content="Information about Marko Stanojevic a self thought frontend web developer/professional QA Tester from Serbia.">
+<title>Marko Stanojevic</title>
+<style>
+
+html { 
+  background: url("https://www.kobecreations.com/wp-content/uploads/2014/10/slider-background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+    }
+    
+
+
+}
+    h1 {
+        font-family:arial;
+    color:black;
+    font-weight:700;
+    font-size:24px;
+        
+    }
+    h2 {
+        font-family:arial;
+    color:black;
+    font-weight:600;
+    font-size:20px;
+        
+    }
+    h3 {
+        font-family:arial;
+color:black;
+font-weight: 700;
+font-size:18px;
+        
+    }
+    p {
+        font-family:arial;
+    color:black;
+    font-weight:150;
+    font-size:14px;
+        
+    }
+    .a {color:blue;
+    }
+    .active, .a:hover { color: green;
+    }
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+    }
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+    margin-left: 5px; }
+
+.active:after {
+  content: "\2212";
+}
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  
+}
+
+    </style>
+    </head>
+    <body>
+<div class="hero-image">
+  <div class="hero-text">
+        <br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> <br> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+      <br>
+      <br>
+<br>
+
+
+
+<h1 style="text-align: center; color:white; font-family:simsun-extb;">Welcome weary traveler</h1>
+
+<br>
+        
+<br>
+<button class="collapsible" style="font-family:simsun-extb">Breifly about me</button>
+        <div class="content" >
+<p style="font-family:simsun-extb; color:white; text-align:left;"> - Hello, my name is Marko, i am a front end web developer from Serbia.<br>
+I am 20 years old at the time of writing this.<br>
+I was always fascinated by coding, since i first heared of it, and i have always wanted to learn it and make my own website.<br>
+And now i have done just that.<br>
+I find joy in making and designing websites and fixing bugs.<br>
+Currently im working as a Quality Assurance tester, im testing websites of course :), and in my free time i code and spend some quality time with my girlfriend.<br>
+</p></div>
+
+       
+<br>
+        <br>
+        <br>
+<div>
+<h1 style="text-align: center; color:white; font-family:simsun-extb;"> Now let me answer some of the questions you might have. </h1>
+        </div>
+<br>
+        <div>
+            <div><button class="collapsible" style="color:white; font-family:simsun-extb;">Who are you?</button>
+<div class="content">
+    <p class="p" style="font-family:simsun-extb; color:white; text-align:left;"> - I am Marko Stanojevic, selfthought web developer.</p> </div>
+
+  
+        
+        </div>
+
+<br>
+
+<div> <button class="collapsible" style="color:white; font-family:simsun-extb;"> Are you a cat or dog person?</button>
+<div class="content">
+    <p class="p" style="font-family:simsun-extb; color:white; text-align:left;"> - I would say that i am a cat person, but i like dogs too, they are such good bois.</p></div> </div>
+        <br>
+<button class="collapsible" style="color:white; font-family:simsun-extb;"> What is you current occupation?</button>
+<div class="content">
+<p class="p" style="font-family:simsun-extb; color:white; text-align:left;"> - Currently i work as a QA Tester, in my free time i code the web and continue to learn and evole as a developer.</p>
+</div>
+
+<br>
+
+<button class="collapsible" style="color:white; font-family:simsun-extb;"> What projects have you worked on?</button>
+<div class="content">
+<p style="font-family:simsun-extb; color:white; text-align:left;"> - Currently this is my only project, at the time of writing this.</p></div>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+  
+        </script>
+<br>
+
+        </div>
+
+   
+<br>
+<br>
+      <br>
+<br>
+<br>
+      <br>
+
+<footer>
+
+       <p style="color:white; font-family:simsun-extb;">If you have more questions or perhaps you are interested in working with me you can find me on <a class="a" href="https://www.instagram.com/_mare98/" target="_blank">
+
+<img src="http://www.border-cars.co.uk/images/instagram.jpg" alt="instagram" style="width:20px; height:20px; border:0;">  
+</a>  or 
+
+ <a class="a" href="https://www.facebook.com/halfalivee" target="_blank"> <img src="https://www.peta.org/wp-content/uploads/2011/03/facebook-logo.gif" alt="facebook" style="width:20px; height:20px; border0;">   </a> or simply email me: marko.stanojevic98@gmail.com </p>
+</footer>
+    </div>
+        </div>
+</body>
+</html>
+
+
+
+
+
+
